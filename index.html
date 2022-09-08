@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/31ac12f276.js" crossorigin="anonymous"></script>
+    <!-- Font Ranade -->
+    <link href="http://fonts.cdnfonts.com/css/ranade" rel="stylesheet" type="text/css">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <h1 class="encourage">Take Your Chances!</h1>
+    <div class="left-container">
+        <h2 id="default">Choose Your Weapon:</h2>
+        <h2 id="user-choice-report">Your Choice:</h2>
+        <i class="fa-solid fa-hand-back-fist img-item"></i>
+        <i class="fa-solid fa-hand img-item"></i>
+        <i class="fa-solid fa-hand-scissors img-item"></i>
+        <h2 id="my-choice-report">My Choice:</h2> 
+        <i class="fa-solid fa-hand-back-fist" id="MyChoice"></i>
+        <i class="fa-solid fa-hand" id="MyChoice"></i>
+        <i class="fa-solid fa-hand-scissors" id="MyChoice"></i>
+        <h2 id="announce-lose">You Lost!</h2>
+        <h2 id="announce-win">Congratulation! You Won!</h2>
+        <button id="restart">Restart</button>
+    </div>
+    <div class="right-container">
+        <h4>Up To 5 Points</h4>
+        <br>
+        <hr>
+        <br>
+        <h2>Points:</h2>
+        <h3>You:</h3>
+        <p id="user-point">0</p>
+        <h3>Me:</h3>
+        <p id="my-point">0</p>
+        <button title="you can use 'c' key" id="continue">Continue</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
